@@ -15,7 +15,7 @@ public class Main {
         Country country=new Country();
        // while (true){
             String text=scanner.next();
-            if(text.contains("aval")==true){
+            if(text.contains("dovom")==true){
                 System.out.println(1);
                 country.names.add(text.split(" ")[3]);
 

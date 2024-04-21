@@ -15,7 +15,7 @@ public class Main {
         Country country=new Country();
        // while (true){
             String text=scanner.next();
-            if(text.contains("createlkk country")==true){
+            if(text.contains("create country")==true){
                 System.out.println(1);
                 country.names.add(text.split(" ")[3]);
 

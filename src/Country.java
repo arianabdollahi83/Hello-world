@@ -1,11 +1,23 @@
-import java.util.ArrayList;
-import java.util.Enumeration;
+public abstract class Country {
+    private String name;
+    private Nationality nationality;
+    private Army army;
 
-public class Country {
-    int number;
+    public Country(String name, Nationality nationality, Army army) {
+        this.name = name;
+        this.nationality = nationality;
+        this.army = army;
+    }
 
-    public void test(){}
-    String nation;
-    ArrayList<String> names=new ArrayList<String>();
-    ArrayList<String> nations =new ArrayList<String>();
+    public String getName() {
+        return name;
+    }
+
+    public Nationality getNationality() {
+        return nationality;
+    }
+
+    public Army getArmy() {
+        return army;
+    }
 }
